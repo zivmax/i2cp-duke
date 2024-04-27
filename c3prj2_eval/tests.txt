@@ -1,0 +1,30 @@
+
+// 认为只要四个就能同花顺
+8s 7d 6d 6s 5c; Js 0s 8s 7d 6s 5c 4c 
+
+// 识别不了4kind
+2d 2c 2s 2h 3h; Ah Ac 3s 8c 7h
+
+// 有2pairs时候生成手牌时只循环4次
+Ad Ac 3s 3h 8c; Ah Ac 3s 8c 7h
+
+// 错误识别同花顺
+Qd Jd 0d 9s 9h 8h 8s; Kh Kc Kd Qd 4s
+
+// 没有检查full house， 识别不了同花顺
+As Qs 0s 5s 8s; Ks Kc Kd Qd Qs
+
+// 识别不了low ace同花顺
+5s 4s 3s 2s As; Ks Qs Js 0s 9s
+
+// 显示手牌偷懒
+6s 7s As Qs 0s 9s 8s; As Qs 0s 9s 8s As Qc Js 0h Kd
+
+// 计算花色代号时多了1，溢出
+Kc Qc Jc 0c 9c; Ks Qc Js 0h 9d
+
+// 识别不了2pairs
+Ad Ac 3s 3h 8c; Ah Ac 3s 8c 7h
+
+// 手牌排序错误
+Jh Jc Ac Ad 7h;Kh Kc 0c 0d As

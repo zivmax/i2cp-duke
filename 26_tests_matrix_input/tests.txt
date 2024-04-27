@@ -1,0 +1,18 @@
+sufficent_line
+speacial_symbols
+spaces
+shortline
+no_ending_new_line
+longline
+lackline
+extra_new_line
+empty
+255!
+broken
++1
+-1
+normal normal
+
+sdf
+
+

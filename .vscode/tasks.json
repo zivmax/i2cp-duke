@@ -1,0 +1,86 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-Wall",
+                "-Werror",
+                "-Wextra",
+                "-Wshadow",
+                "-Wpedantic",
+                "-Wsign-compare",
+                "-Wtype-limits",
+                "-fsanitize=address",
+                "-fno-omit-frame-pointer",
+                "-fsanitize=signed-integer-overflow",
+                "-fsanitize=undefined",
+                "-ggdb3",
+                "-O0",
+                "-std=c++17",
+                "-lm",
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "To compile C++ code."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc build active file",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-Wall",
+                "-Werror",
+                "-Wextra",
+                "-Wshadow",
+                "-Wpedantic",
+                "-Wsign-compare",
+                "-Wtype-limits",
+                "-fsanitize=address",
+                "-fno-omit-frame-pointer",
+                "-fsanitize=signed-integer-overflow",
+                "-fsanitize=undefined",
+                "-ggdb3",
+                "-O0",
+                "-std=gnu99",
+                "-lm",
+                "cards.o",
+                "deck.o",
+                "eval.o",
+                "future.o",
+                "input.o",
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "To compile C code."
+        }
+    ],
+    "version": "2.0.0"
+}

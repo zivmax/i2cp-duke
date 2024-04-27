@@ -1,0 +1,21 @@
+prepare 3 blank papers
+
+Read the Anomaly of each city one by one, and write it down one by one as a line without any repeatation on the No.1 paper.
+
+while No.1 paper is not blank, do the follow steps repeatedly:
+    Write down the most left number on the No.2 paper.
+    Go back to the original line of numbers, be foucus the most left number
+    compare the number you are foucus on with the number we just write down in another place:
+        if the number we are foucus on is smaller:
+            we change the number we write down in another place into the number we are foucus on
+
+        then check if we are not foucusing on the right most number
+        if we are not foucusing on the right most number:
+            nothing to do but pay our attention to the next number right besides the number we are foucus on now
+        if we are foucusing on the right most number:
+            append the number on No.2 paper below the exsiting vertical array of numbers on No.3 paper, if no array exsits, write down the number on the most top of the No.3 paper.
+            then go back to No.1 paper, erase one number equals to the number on No.2 paper.
+            erase the number on No.2 paper
+
+when No.1 paper is blank, the sorted data were already on the No.2 paper
+    

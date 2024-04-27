@@ -1,0 +1,45 @@
+
+// nothing 
+Kh Js 9h 6c 3s
+
+// pair
+Kh Kc Ac 8c 7h
+Kh Kc Ac 7h 3s
+
+// 2pair
+Kh Kc Ac Ad 7h
+Kh Kc Ac Ad 3s
+
+// 3 kind
+Kh Kc Kd Ac 3s
+Kh Kc Kd Ac 7h
+Kh Kc Kd Qd 4s
+
+// Straight
+Ks Qc Js 0h 9d
+
+// Straight ace low
+5d 4s 3c 2h Ah
+
+// Fulsh
+Ks Qs Js 0s 2s
+As Qs 0s 5s 8s
+
+// Full house
+Ks Kc Kd Qd Qs
+9s 9c 9d 0d 0h
+
+// 4 pairs
+2d 2c 2s 2h 3h
+As Ad Ah Ac 3s
+
+// Straight Fulsh
+Ks Qs Js 0s 9s
+As Qs 0s 9s 8s
+
+// Straight Fulsh ace low
+5s 4s 3s 2s As
+
+
+
+
